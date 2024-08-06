@@ -44,6 +44,7 @@ public class CrudTx {
                     break;
 
                 case 2:
+                    // listaPessoas.size() mostra numericamente quantas pessoas que estão cadastradas
                     System.out.println("Insira o número da pessoa a editar (1-" + listaPessoas.size() + "):");
                     int pessoaEditar = scanner.nextInt();
                     scanner.nextLine();  
@@ -58,6 +59,7 @@ public class CrudTx {
                     break;
 
                 case 3:  
+                    // listaPessoas.size() mostra numericamente quantas pessoas que estão cadastradas
                     System.out.println("Insira o número da pessoa a excluir (1-" + listaPessoas.size() + "):");
                     int pessoaExcluir = scanner.nextInt();
 
